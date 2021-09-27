@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+	 <title>SriRudram tutor application</title>
+	  <link rel="stylesheet" href="index.css">
+	 
+</head>
+<body class = "homebg">
+	<img src= "logo.png" class = "logo">
+	<div class = "banner-text">
+		<h1> Subbaiah Veda <br>Patashala </h1>
+		<p> Experience the Divinity </p>
+		<div class = "banner-btn">
+			<a ref = "#"><span></span> About </a>
+			<a ref = "#"><span></span> Veda Tutor </a>
+			<a ref = "#"><span></span>Register </a>
+			<a ref = "#"><span></span> Testimony </a>
+			<a ref = "#"><span></span> Contact Us </a>
+			</div>
+		</div>
+		</section>
+		
+		<div id="sideNav">
+			<nav>
+			<ul>
+					<li><a href="#">Login</li>
+					<li><a href="#">Logout</li>
+					
+			</ul>
+			</nav>
+		</div>
+		
+		<div id= "manuBtn">
+			<img src= "menu.png" id="menu">
+		</div>
+		
+		
+	<script>
+	var manuBtn = document.getElementById("manuBtn");
+	var sideNav = document.getElementById("sideNav");
+	var menu = document.getElementById("menu");
+	
+	manuBtn.onclick = function(){
+	if(sideNav.style.right== "-250px"){
+	sideNav.style.right = "0"; 
+	
+	}
+	else
+	{
+	sideNav.style.right = "-250px";
+	}}
+	</script>
+</body>
+</html>
